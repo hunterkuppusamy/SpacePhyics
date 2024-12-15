@@ -12,7 +12,7 @@ private:
         this->mass = massKg;
     }
 public:
-    [[nodiscard]] double attractMetersKilograms(const Particle& other, const double distance) const {
+    double attractMetersKilograms(const Particle& other, const double distance) const {
         return gravity::calculateGravityForceMetersKilograms(this->mass, other.mass, distance);
     }
     static Particle createKg(const double mass) {

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "simulation/particle.cpp"
+#include "simulation/particle.h"
 
 using namespace std;
 

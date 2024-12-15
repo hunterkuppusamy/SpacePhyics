@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(SRC_LIST
         src/main.cpp
-        src/simulation/gravity.h
+        src/simulation/gravity.cpp
         src/simulation/particle.cpp
 )
 
